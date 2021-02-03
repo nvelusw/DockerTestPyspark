@@ -1,5 +1,5 @@
 FROM ubuntu
-MAINTAINER  Raj
+MAINTAINER  Nandhini
 RUN apt-get update
 RUN apt-get install -y default-jdk default-jre 
 RUN apt-get install -y python3-pip python3-dev \
